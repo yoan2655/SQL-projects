@@ -97,7 +97,7 @@ select  * from test.layoffs_staging2;
 
 
 -- 3. blanks and null values
--- let's drop all blanks into cells in all columns.
+-- let's drop all blanks/null values into cells in all columns.
 
 
 -- all null values in total_laid_off and percentage_laid_off means there are no laids off so we don't need these rows. 
