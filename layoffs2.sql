@@ -20,7 +20,8 @@ select * from test.layoffs_staging;
 
 -- 1. remove duplicates values
 -- here we started to write a windows function and then, display the duplicate number in a separate query. 
--- we wanted to delete the duplicates row but we can't do it on a windows functions that's why we create a new table and from it we delete.
+-- After it we wanted to delete the duplicates row but we can't do it on a windows functions that's why we create a new table,
+-- and from it we deleted the duplicates values (row_num>1)
 CREATE TABLE test.`layoffs_staging2` (
   `company` text,
   `location` text,
