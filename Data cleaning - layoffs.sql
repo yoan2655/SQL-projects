@@ -1,9 +1,9 @@
 /*------------------------------------------*/
-/* -- Project of data cleaning  		 -- */
-/* -- DB 'Layoffs' from Kaggle  		 -- */
-/* -- 1. remove duplicates     			 -- */
-/* -- 2. standardize the data 		   	 -- */
-/* -- 3. Null/blanks values 		   	 -- */
+/* -- Project of data cleaning 		 -- */
+/* -- DB 'Layoffs' from Kaggle 		 -- */
+/* -- 1. remove duplicates    		 -- */
+/* -- 2. standardize the data	  	 -- */
+/* -- 3. Null/blanks values 	   	 -- */
 /* -- 4. Remove Uncessary Columns/Rows 	 -- */
 /*------------------------------------------*/
 
